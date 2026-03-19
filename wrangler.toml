@@ -1,0 +1,11 @@
+name = "personal-website"
+type = "javascript"
+
+[build]
+command = "npm run build"
+
+[build.upload]
+dir = ".next"
+
+[env.production.build.upload]
+dir = ".next"
