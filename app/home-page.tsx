@@ -38,10 +38,6 @@ export default function HomePage() {
             className="mb-20 flex flex-col items-center gap-y-8 text-center"
           >
             <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-2">
-                <Zap className="h-4 w-4 text-cyan-400" />
-                <span className="text-sm text-cyan-300">Portfolio Status: Active</span>
-              </div>
               <h1 className="gradient-text text-5xl font-bold md:text-6xl">
                 Gregory Shane Lawrence
               </h1>
