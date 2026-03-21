@@ -494,3 +494,11 @@ export default function Home() {
     </main>
   );
 }
+
+const nextConfig: NextConfig = {
+  experimental: {
+    buildOutputStandalone: true,
+  },
+};
+
+export default nextConfig;
