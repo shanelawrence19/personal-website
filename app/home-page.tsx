@@ -92,10 +92,10 @@ export default function HomePage() {
               className="space-y-4"
             >
               <p className="text-lg leading-relaxed text-slate-300">
-                Software Engineering student at Penn State University graduating May 2026. Strong foundation in machine learning, data science, quantitative analysis, and backend architecture. Designed and implemented end-to-end systems from cloud IAM analysis to facial reconstruction models and data-driven applications using cutting-edge ML and statistical frameworks.
+                I'm a software engineering student at PSU with a passion for data science and analytics. With a strong programming foundation and a passion for data manipulation, I love to build systems that solve real-world analytical problems. I have experience in machine learning, backend development, and data-driven insights.
               </p>
               <p className="text-lg leading-relaxed text-slate-300">
-                Focused on solving complex problems through data science, machine learning, and backend infrastructure. Experience building production-ready systems with Python, NestJS, and cloud platforms. Passionate about ML applications in computer vision, quantitative analysis, statistical modeling, and data-driven insights.
+                Outside of academics, I enjoy exploring the latest in cybersecurity, quantitative analysis, and anything automotive.
               </p>
               <div className="pt-4 space-y-3">
                 <div className="flex items-center gap-3">
