@@ -56,7 +56,7 @@ export default function HomePage() {
             >
               <div>
                 <div className="text-xs text-slate-500 uppercase tracking-wider">Programming Languages</div>
-                <div className="mt-2 text-3xl font-bold text-blue-400">8+</div>
+                <div className="mt-2 text-3xl font-bold text-blue-400">10</div>
                 <div className="mt-1 text-xs text-slate-400">C plus plus, Java, Python, TS</div>
               </div>
             </motion.div>
