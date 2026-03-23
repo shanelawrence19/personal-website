@@ -42,7 +42,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between">
                 <div>
                   <div className="text-xs text-slate-500 uppercase tracking-wider">Projects Completed</div>
-                  <div className="mt-2 text-3xl font-bold text-green-400">6+</div>
+                  <div className="mt-2 text-3xl font-bold text-green-400">7+</div>
                 </div>
                 <TrendingUp className="h-8 w-8 text-green-500/30" />
               </div>
@@ -185,7 +185,7 @@ export default function HomePage() {
                 <h3 className="text-lg font-semibold text-cyan-400 mb-1">
                   App Development Capstone: Career Fair App
                 </h3>
-                <p className="text-xs text-slate-500">Aug 2025 - Present</p>
+                <p className="text-xs text-slate-500">Aug 2025 - May 2026</p>
               </div>
               <p className="mb-4 text-sm text-slate-400">
                 Designing backend architecture for university career fair system. Building NestJS + TypeScript backend with PostgreSQL, CSV import/validation for 150+ companies, and grid-based map generation.
@@ -209,7 +209,7 @@ export default function HomePage() {
                 <h3 className="text-lg font-semibold text-cyan-400 mb-1">
                   Facial Reconstruction Model
                 </h3>
-                <p className="text-xs text-slate-500">Mar 2025 - Jun 2025 · Seoul, South Korea</p>
+                <p className="text-xs text-slate-500">Mar 2025 - Jun 2025</p>
               </div>
               <p className="mb-4 text-sm text-slate-400">
                 Dual-encoder transformer-based face restoration model for low-to-high resolution reconstruction. Evaluated transformers beyond NLP and trained on custom vision datasets with PyTorch.
@@ -289,6 +289,30 @@ export default function HomePage() {
               <div className="mb-4">
                 <div className="h-1 rounded-full bg-slate-700">
                   <div className="h-1 w-full rounded-full bg-indigo-500"></div>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Project 7 - Quant Model Site using Streamlit */}
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+            >
+              <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-yellow-500/20 to-yellow-500/5">
+                <div className="h-2 w-2 rounded-full bg-yellow-400 animate-pulse"></div>
+              </div>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-cyan-400 mb-1">
+                  Quant Trading Model Website
+                </h3>
+                <p className="text-xs text-slate-500">Nov 2023 - Apr 2024 · Engineering Research</p>
+              </div>
+              <p className="mb-4 text-sm text-slate-400">
+                Developed a web application for quant trading models using Streamlit. Implemented interactive visualizations, real-time data updates, and user-friendly interfaces for financial analysis.
+              </p>
+              <div className="mb-4">
+                <div className="h-1 rounded-full bg-slate-700">
+                  <div className="h-1 w-full rounded-full bg-yellow-500"></div>
                 </div>
               </div>
             </motion.div>
