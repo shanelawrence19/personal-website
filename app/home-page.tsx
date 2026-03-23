@@ -305,7 +305,7 @@ export default function HomePage() {
                 <h3 className="text-lg font-semibold text-cyan-400 mb-1">
                   Quant Trading Model Website
                 </h3>
-                <p className="text-xs text-slate-500">Nov 2023 - Apr 2024 · Engineering Research</p>
+                <p className="text-xs text-slate-500">February 2026 - March 2026</p>
               </div>
               <p className="mb-4 text-sm text-slate-400">
                 Developed a web application for quant trading models using Streamlit. Implemented interactive visualizations, real-time data updates, and user-friendly interfaces for financial analysis.
