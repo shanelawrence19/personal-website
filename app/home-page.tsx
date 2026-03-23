@@ -42,7 +42,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between">
                 <div>
                   <div className="text-xs text-slate-500 uppercase tracking-wider">Projects Completed</div>
-                  <div className="mt-2 text-3xl font-bold text-green-400">7+</div>
+                  <div className="mt-2 text-3xl font-bold text-green-400">7</div>
                 </div>
                 <TrendingUp className="h-8 w-8 text-green-500/30" />
               </div>
@@ -83,7 +83,7 @@ export default function HomePage() {
       <section id="about" className="border-t border-slate-800 px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-4 text-4xl font-bold">Executive Summary</h2>
-          <p className="mb-12 text-slate-400">Graduating May 2026 from Penn State with deep expertise in ML and backend systems</p>
+          <p className="mb-12 text-slate-400">Who Am I?</p>
           <div className="grid gap-8 md:grid-cols-2">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -146,7 +146,7 @@ export default function HomePage() {
       <section id="projects" className="border-t border-slate-800 px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-4 text-4xl font-bold">Featured Projects</h2>
-          <p className="mb-12 text-slate-400">Selected highlights and key deliverables</p>
+          <p className="mb-12 text-slate-400">What Have I Made?</p>
 
           <div className="grid gap-6 md:grid-cols-2">
             {/* Project 1 - IAM Analyzer */}
@@ -324,7 +324,7 @@ export default function HomePage() {
       <section id="skills" className="border-t border-slate-800 px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-4 text-4xl font-bold">Technology Stack</h2>
-          <p className="mb-12 text-slate-400">Core competencies and expertise allocation</p>
+          <p className="mb-12 text-slate-400">What Have I Used?</p>
 
           <div className="grid gap-8 md:grid-cols-3">
             {/* Languages */}
