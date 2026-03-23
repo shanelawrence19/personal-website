@@ -32,7 +32,7 @@ export default function HomePage() {
           </motion.div>
 
           {/* Market Overview Cards */}
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
