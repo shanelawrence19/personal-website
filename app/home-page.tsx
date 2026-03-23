@@ -281,7 +281,7 @@ export default function HomePage() {
                 <h3 className="text-lg font-semibold text-cyan-400 mb-1">
                   Data Bias in Machine Learning
                 </h3>
-                <p className="text-xs text-slate-500">Nov 2023 - Apr 2024 · Engineering Research</p>
+                <p className="text-xs text-slate-500">Nov 2023 - Apr 2024</p>
               </div>
               <p className="mb-4 text-sm text-slate-400">
                 Exploratory research on NLP model bias. Reviewed bias mitigation frameworks and investigated knowledge graph integration for fairness-aware decisions and bias reduction.
