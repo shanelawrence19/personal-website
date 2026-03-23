@@ -4,22 +4,6 @@ import { Github, Linkedin, Mail, ExternalLink, TrendingUp, Award, Zap } from "lu
 import { LineChart, Line, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 import { motion } from "framer-motion";
 
-const skillsData = [
-  { month: "Jan", proficiency: 60 },
-  { month: "Feb", proficiency: 72 },
-  { month: "Mar", proficiency: 68 },
-  { month: "Apr", proficiency: 82 },
-  { month: "May", proficiency: 88 },
-  { month: "Jun", proficiency: 95 },
-];
-
-const projectsPerformance = [
-  { quarter: "Q1", completed: 2 },
-  { quarter: "Q2", completed: 3 },
-  { quarter: "Q3", completed: 4 },
-  { quarter: "Q4", completed: 5 },
-];
-
 export default function HomePage() {
   return (
     <main className="bg-gradient-to-br from-slate-950 via-blue-950 to-slate-950">
@@ -61,19 +45,6 @@ export default function HomePage() {
                   <div className="mt-2 text-3xl font-bold text-green-400">6+</div>
                 </div>
                 <TrendingUp className="h-8 w-8 text-green-500/30" />
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2, duration: 0.6 }}
-              className="rounded-lg border border-slate-700/50 bg-slate-900/50 p-6 backdrop-blur-lg"
-            >
-              <div>
-                <div className="text-xs text-slate-500 uppercase tracking-wider">ML & AI Projects</div>
-                <div className="mt-2 text-3xl font-bold text-cyan-400">4+</div>
-                <div className="mt-1 text-xs text-slate-400">Deep Learning</div>
               </div>
             </motion.div>
 
