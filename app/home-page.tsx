@@ -39,7 +39,7 @@ export default function HomePage() {
           >
             <div className="space-y-4">
               <h1 className="gradient-text text-5xl font-bold md:text-6xl">
-                Gregory Shane Lawrence
+                Shane Lawrence
               </h1>
               <p className="text-xl text-slate-300">
                 Software Engineer | Machine Learning | Data Science & Quant Analysis
