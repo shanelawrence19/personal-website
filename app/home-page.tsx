@@ -159,7 +159,7 @@ export default function HomePage() {
               </div>
               <div className="mb-4">
                 <h3 className="text-lg font-semibold text-cyan-400 mb-1">
-                  Cloud Security: IAM Attack Path Analyzer
+                  IAM Attack Path Analyzer
                 </h3>
                 <p className="text-xs text-slate-500">Aug 2025 - Nov 2025</p>
               </div>
@@ -183,7 +183,7 @@ export default function HomePage() {
               </div>
               <div className="mb-4">
                 <h3 className="text-lg font-semibold text-cyan-400 mb-1">
-                  App Development Capstone: Career Fair App
+                  Career Fair App
                 </h3>
                 <p className="text-xs text-slate-500">Aug 2025 - May 2026</p>
               </div>
