@@ -315,6 +315,30 @@ export default function HomePage() {
                 </div>
               </div>
             </motion.div>
+
+            {/* Project 8 - Literally This Website */}
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+            >
+              <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-pink-500/20 to-pink-500/5">
+                <div className="h-2 w-2 rounded-full bg-pink-400 animate-pulse"></div>
+              </div>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-cyan-400 mb-1">
+                  Personal Website
+                </h3>
+                <p className="text-xs text-slate-500">February 2026 - March 2026</p>
+              </div>
+              <p className="mb-4 text-sm text-slate-400">
+                Developed a personal website to showcase projects, skills, and experiences. Implemented a simple and modern user interface using React. Deployed to my own domain for easy sharing.
+              </p>
+              <div className="mb-4">
+                <div className="h-1 rounded-full bg-slate-700">
+                  <div className="h-1 w-full rounded-full bg-pink-500"></div>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
