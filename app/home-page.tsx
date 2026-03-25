@@ -151,7 +151,7 @@ export default function HomePage() {
             {/* Project 1 - IAM Analyzer */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-red-500/20 to-red-500/5">
                 <div className="h-2 w-2 rounded-full bg-red-400 animate-pulse"></div>
@@ -175,7 +175,7 @@ export default function HomePage() {
             {/* Project 2 - Career Fair App */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-green-500/20 to-green-500/5">
                 <div className="h-2 w-2 rounded-full bg-green-400 animate-pulse"></div>
@@ -199,7 +199,7 @@ export default function HomePage() {
             {/* Project 3 -  Facial Reconstruction */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-purple-500/20 to-purple-500/5">
                 <div className="h-2 w-2 rounded-full bg-purple-400 animate-pulse"></div>
@@ -223,7 +223,7 @@ export default function HomePage() {
             {/* Project 4 - Neural Network tSNE */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-500/20 to-blue-500/5">
                 <div className="h-2 w-2 rounded-full bg-blue-400 animate-pulse"></div>
@@ -247,7 +247,7 @@ export default function HomePage() {
             {/* Project 5 - Restaurant App */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-orange-500/20 to-orange-500/5">
                 <div className="h-2 w-2 rounded-full bg-orange-400 animate-pulse"></div>
@@ -271,7 +271,7 @@ export default function HomePage() {
             {/* Project 6 - Data Bias Research */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500/20 to-indigo-500/5">
                 <div className="h-2 w-2 rounded-full bg-indigo-400 animate-pulse"></div>
@@ -295,7 +295,7 @@ export default function HomePage() {
             {/* Project 7 - Quant Model Site using Streamlit */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-yellow-500/20 to-yellow-500/5">
                 <div className="h-2 w-2 rounded-full bg-yellow-400 animate-pulse"></div>
@@ -319,7 +319,7 @@ export default function HomePage() {
             {/* Project 8 - Literally This Website */}
             <motion.div
               whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-gradient-to-br from-slate-900 to-slate-900/50 p-6 backdrop-blur-lg transition-all"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-pink-500/20 to-pink-500/5">
                 <div className="h-2 w-2 rounded-full bg-pink-400 animate-pulse"></div>
