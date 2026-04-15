@@ -150,8 +150,7 @@ export default function HomePage() {
           <div className="grid gap-6 md:grid-cols-2">
             {/* Project 1 - IAM Analyzer */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-red-500/20 to-red-500/5">
                 <div className="h-2 w-2 rounded-full bg-red-400 animate-pulse"></div>
@@ -174,8 +173,7 @@ export default function HomePage() {
 
             {/* Project 2 - Career Fair App */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-green-500/20 to-green-500/5">
                 <div className="h-2 w-2 rounded-full bg-green-400 animate-pulse"></div>
@@ -198,8 +196,7 @@ export default function HomePage() {
 
             {/* Project 3 -  Facial Reconstruction */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-purple-500/20 to-purple-500/5">
                 <div className="h-2 w-2 rounded-full bg-purple-400 animate-pulse"></div>
@@ -222,8 +219,7 @@ export default function HomePage() {
 
             {/* Project 4 - Neural Network tSNE */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-blue-500/20 to-blue-500/5">
                 <div className="h-2 w-2 rounded-full bg-blue-400 animate-pulse"></div>
@@ -246,8 +242,7 @@ export default function HomePage() {
 
             {/* Project 5 - Restaurant App */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-orange-500/20 to-orange-500/5">
                 <div className="h-2 w-2 rounded-full bg-orange-400 animate-pulse"></div>
@@ -270,8 +265,7 @@ export default function HomePage() {
 
             {/* Project 6 - Data Bias Research */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-indigo-500/20 to-indigo-500/5">
                 <div className="h-2 w-2 rounded-full bg-indigo-400 animate-pulse"></div>
@@ -294,8 +288,7 @@ export default function HomePage() {
 
             {/* Project 7 - Quant Model Site using Streamlit */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-yellow-500/20 to-yellow-500/5">
                 <div className="h-2 w-2 rounded-full bg-yellow-400 animate-pulse"></div>
@@ -318,8 +311,7 @@ export default function HomePage() {
 
             {/* Project 8 - Literally This Website */}
             <motion.div
-              whileHover={{ y: -5 }}
-              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6 transition-transform"
+              className="group relative rounded-lg border border-slate-700/50 bg-slate-900 p-6"
             >
               <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-pink-500/20 to-pink-500/5">
                 <div className="h-2 w-2 rounded-full bg-pink-400 animate-pulse"></div>
@@ -339,6 +331,33 @@ export default function HomePage() {
                 </div>
               </div>
             </motion.div>
+
+          </div>
+
+          {/* Project 9 - Marwhal (centered) */}
+          <div className="mt-6 flex flex-col items-center">
+            <motion.div
+              className="group relative w-full max-w-[calc(50%-12px)] rounded-lg border border-slate-700/50 bg-slate-900 p-6"
+            >
+              <div className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-teal-500/20 to-teal-500/5">
+                <div className="h-2 w-2 rounded-full bg-teal-400 animate-pulse"></div>
+              </div>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-cyan-400 mb-1">
+                  marwhal.info
+                </h3>
+                <p className="text-xs text-slate-500">April 2026</p>
+              </div>
+              <p className="mb-4 text-sm text-slate-400">
+                Developed a high-performance financial dashboard-styled after a Bloomberg Terminal-designed to aggregate and visualize "signal" data from Polymarket. The tool focuses on detecting high-volume trades and market sentiment shifts to provide users with an information edge in decentralized prediction markets.
+              </p>
+              <div className="mb-4">
+                <div className="h-1 rounded-full bg-slate-700">
+                  <div className="h-1 w-full rounded-full bg-teal-500"></div>
+                </div>
+              </div>
+            </motion.div>
+            <p className="mt-3 text-xs text-slate-500">Any Questions? Reach Out!</p>
           </div>
         </div>
       </section>
