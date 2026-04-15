@@ -42,7 +42,7 @@ export default function HomePage() {
               <div className="flex items-center justify-between">
                 <div>
                   <div className="text-xs text-slate-500 uppercase tracking-wider">Projects Completed</div>
-                  <div className="mt-2 text-3xl font-bold text-green-400">8</div>
+                  <div className="mt-2 text-3xl font-bold text-green-400">9</div>
                 </div>
                 <TrendingUp className="h-8 w-8 text-green-500/30" />
               </div>
